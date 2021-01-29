@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.SStaphylococcusaureus.eg,
+    org.SStaphylococcusaureus.eg_dbconn,
+    org.SStaphylococcusaureus.eg_dbfile,
+    org.SStaphylococcusaureus.eg_dbschema,
+    org.SStaphylococcusaureus.eg_dbInfo,
+
+    org.SStaphylococcusaureus.egORGANISM
+)
+
